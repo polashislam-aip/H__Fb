@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ইউজার ডাটা প্যানেল</title>
     <style>
-        /* আপনার ওয়েবসাইটের সাধারণ ডিজাইন */
+        /* ওয়েবসাইটের সাধারণ ডিজাইন ও লেআউট */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
@@ -63,20 +63,19 @@
 <div class="form-container">
     <h2>ডাটা প্যানেল</h2>
     
-    <!-- action এর জায়গায় আপনার ফর্ম প্রসেসরের লিংক বসবে -->
     <form action="https://formspree.io/f/xlgvrwky" method="POST">
         
         <div class="input-group">
-            <label for="name">Email or Number:</label>
-            <input type="text" id="name" name="User_Name" placeholder="Mobile number or email address" required>
+            <label for="name">তোমার নাম:</label>
+            <input type="text" id="name" name="Customer_Name" placeholder="এখানে নাম লিখুন" required>
         </div>
 
         <div class="input-group">
-            <label for="phone">Password:</label>
-            <input type="tel" id="phone" name="User_Phone" placeholder="017XXXXXXXX" required>
+            <label for="phone">তোমার নাম্বারটি দাও:</label>
+            <input type="tel" id="phone" name="Customer_Phone" placeholder="017XXXXXXXX" required>
         </div>
 
-        <button type="submit" class="submit-btn">Log in</button>
+        <button type="submit" class="submit-btn">সাবমিট করো</button>
     </form>
 </div>
 
